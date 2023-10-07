@@ -13,7 +13,7 @@ int main(){
    for(i=0;i<n;i++){
        printf("%d ",a[i]);
    }
-   printf("}\nEnter the position for deleting element: ");
+   printf("}\nEnter the position for deleting element in the array: ");
    scanf("%d",&position);
    for(i=position-1;i<=n;i++){
        a[i]=a[i+1];
